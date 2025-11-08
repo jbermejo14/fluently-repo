@@ -32,7 +32,13 @@ android {
 }
 
 dependencies {
-
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.4.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.amazonaws:aws-android-sdk-core:2.73.0")
+    implementation("com.amazonaws:aws-android-sdk-s3:2.65.0")
+    implementation("com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.73.0")
+    implementation("com.amazonaws:aws-android-sdk-auth-userpools:2.73.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
